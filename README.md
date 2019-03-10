@@ -5,7 +5,7 @@ the program arguments are :<br>
 ```
   -h, --help            show this help message and exit
   -H HOST, --host HOST  Remote host to connect to
-  -p PORT, --port PORT  Port to connect on
+  -p PORT, --port PORT  Port to connect on (optional)
   -c COMMUNITY, --community COMMUNITY
                         SNMP Community
 ```
