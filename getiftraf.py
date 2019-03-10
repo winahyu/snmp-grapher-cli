@@ -34,7 +34,7 @@ def get_args():
     parser.add_argument('-H', '--host', required=True, action='store',
                         help='Remote host to connect to')
     parser.add_argument('-p', '--port', type=int, default=161, action='store',
-                        help='Port to connect on')
+                        help='Port to connect on (optional)')
     parser.add_argument('-c', '--community', required=True, action='store',
                         help='SNMP Community')
     args = parser.parse_args()
@@ -51,7 +51,7 @@ def print_xy(y, x, color, text):
      sys.stdout.flush()
 
 def selection_menu():
-    print colors.YELLOW + '\nSelect Interface to monitor (q to quit): ',
+    print colors.YELLOW + '\nSelect Interface index to monitor (q to quit): ',
     return raw_input()
 
 
