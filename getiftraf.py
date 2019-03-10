@@ -51,7 +51,7 @@ def print_xy(y, x, color, text):
      sys.stdout.flush()
 
 def selection_menu():
-    print colors.YELLOW + '\nSelect Interface to monitor : ',
+    print colors.YELLOW + '\nSelect Interface to monitor (q to quit): ',
     return raw_input()
 
 
