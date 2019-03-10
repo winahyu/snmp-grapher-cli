@@ -31,7 +31,7 @@ def get_args():
    """
     parser = argparse.ArgumentParser(
         description='Process args for retrieving device interface via SNMP')
-    parser.add_argument('-o', '--host', required=True, action='store',
+    parser.add_argument('-H', '--host', required=True, action='store',
                         help='Remote host to connect to')
     parser.add_argument('-p', '--port', type=int, default=161, action='store',
                         help='Port to connect on')
