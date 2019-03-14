@@ -18,5 +18,5 @@ the program arguments are :<br>
 <img src="screenshot.png">
 
 <br>
-extra terminal_color.py for the list of charcter sequence to generate the terminal text color  
+extra terminal_color.py for the list of character sequence to generate the terminal text color  
 
